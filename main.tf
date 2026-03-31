@@ -20,3 +20,8 @@ provider "azurerm" {
   features {}
   use_oidc = true # Включаем OIDC для провайдера
 }
+
+resource "azurerm_resource_group" "example" {
+  name     = "example-resources"
+  location = "East US"
+}

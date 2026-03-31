@@ -1,2 +1,9 @@
-LICENSE.txt
-terraform-provider-azurerm_v3.117.1_x5.exe
+# Local Terraform state
+*.tfstate
+*.tfstate.*
+
+# .terraform directory
+.terraform/
+
+# Crash log files
+crash.log
